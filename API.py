@@ -11,4 +11,5 @@ headers= {
 
 response = requests.request("GET", url, headers=headers, data = payload)
 
+#response.json()
 print(response.text)
